@@ -1,0 +1,34 @@
+# Environment / secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Private / source data
+data/
+*.xlsx
+*.xls
+*.csv
+
+# Private reports and generated output
+output/
+
+# Private source documents
+*.docx
+*.pdf
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log

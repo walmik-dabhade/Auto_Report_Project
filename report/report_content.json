@@ -1,0 +1,43 @@
+{
+    "organization_name": "Door Step School Foundation",
+
+    "program_name": "Community Education Program",
+
+    "introduction": {
+        "title": "Introduction",
+        "paragraphs": [
+            "Door Step School Foundation works to address educational gaps among children from marginalised communities, including children living in temporary and permanent settlements and other vulnerable communities.",
+            
+            "The programme focuses on three important challenges in public education: children who are not enrolled in school, children who discontinue schooling at an early age, and children who remain enrolled but experience low learning levels.",
+            
+            "The organisation also supports older children and young people through guidance and counselling initiatives where appropriate."
+        ]
+    },
+
+    "executive_summary": {
+        "title": "Executive Summary",
+        "paragraphs": [
+            "Children from migrant and economically vulnerable communities can face barriers to education because of migration, living conditions, family responsibilities and other circumstances. These challenges can affect school enrolment, regular attendance, learning progress and continuation in education.",
+            
+            "The Community Education Program addresses these challenges through a consistent and engaging educational approach, with a strong focus on foundational literacy and numeracy, children's overall development and parent participation.",
+            
+            "The programme uses activity-based and child-centred learning approaches to build children's interest in education and strengthen their foundational learning. Regular tracking of attendance and learning levels helps the programme identify children who may require additional support.",
+            
+            "The programme's approach is aligned with the broader goal of improving foundational literacy and numeracy and supporting inclusive and equitable quality education."
+        ]
+    },
+
+    "programme_context": {
+        "title": "Programme Context",
+        "paragraphs": [
+            "The Community Education Program works with children through structured educational activities designed to strengthen foundational learning, encourage regular participation and support continued education.",
+            
+            "The programme also recognises the importance of working with parents and the wider community. Parent engagement, regular communication and follow-up are used to encourage children's attendance and continued participation."
+        ]
+    },
+
+    "report_note": {
+        "title": "About This Report",
+        "text": "The numerical information presented in this report is generated from the cleaned programme dataset for the selected reporting period. Programme background and contextual narrative are maintained as reusable reference content, while child-level indicators, performance measures and observations are updated automatically from the latest available data."
+    }
+}
