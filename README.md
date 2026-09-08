@@ -2,47 +2,251 @@
 
 
 
-An automated reporting system that transforms programme data and qualitative reports into structured, funder-specific Community Education Programme progress reports.
+An automated Python-based reporting system that converts programme data and qualitative reports into structured, funder-specific Community Education Programme progress reports.
 
 
 
-\## Overview
+\## 📌 Project Overview
 
 
 
-This project automates the generation of CSR/community education programme reports for multiple funders.
+This project automates the reporting workflow for a Community Education Programme supported by multiple CSR funding partners.
 
 
 
-The system combines:
+The system brings together quantitative programme data and qualitative field-level information to generate professional, funder-specific reports with KPIs, insights, charts, learning-level analysis, and translated narratives.
 
 
 
-\- Programme and learner data from Excel
+\## 🎯 Objectives
 
-\- KPI calculations
 
-\- Activity-wise analysis
+
+\- Reduce manual effort involved in periodic CSR reporting
+
+\- Standardize report generation across multiple funders
+
+\- Generate accurate funder-specific KPIs and insights
+
+\- Combine quantitative and qualitative programme information
+
+\- Automate charts and visualizations
+
+\- Translate Marathi programme reports into English
+
+\- Generate professionally formatted Word reports
+
+
+
+\## ✨ Key Features
+
+
+
+\### 📊 KPI \& Data Analysis
+
+
+
+\- Programme-level KPI calculations
+
+\- Funder-wise beneficiary analysis
+
+\- Activity-wise reach analysis
 
 \- Attendance analysis
 
-\- Language and mathematics learning-level analysis
+\- Gender analysis
 
-\- Funder-specific insights
+\- Continuity/dropout/migration analysis
 
-\- Marathi-to-English translation using Google Gemini
+\- Language learning-level analysis
 
-\- Automated charts and visualizations
+\- Mathematics learning-level analysis
 
-\- Professionally formatted Word reports
+\- Location-based insights
 
 
 
-\## Project Structure
+\### 🏫 Activity Analysis
+
+
+
+The system supports analysis of programme activities including:
+
+
+
+\- Balwadi
+
+\- Study Class
+
+\- Library Class
+
+\- Home Lending
+
+
+
+\### 🤖 AI-Powered Translation
+
+
+
+Qualitative Marathi programme reports are translated into English using the Google Gemini API.
+
+
+
+The translated content is then incorporated into the reporting workflow to preserve field-level context and stories.
+
+
+
+\### 📄 Automated Word Reports
+
+
+
+The reporting engine generates structured Word reports containing:
+
+
+
+\- Cover page
+
+\- Executive summary
+
+\- Programme highlights
+
+\- Activity-wise objectives and observations
+
+\- Attendance analysis
+
+\- Learning-level analysis
+
+\- Stakeholder engagement
+
+\- Challenges and next-quarter plans
+
+\- Special stories
+
+\- Annexures
+
+\- Charts and photographs
+
+
+
+\### 👥 Funder-Specific Reporting
+
+
+
+Reports can be generated separately for different funding partners using the same reporting framework while dynamically adapting the relevant KPIs and insights.
+
+
+
+\## 🔄 End-to-End Workflow
 
 
 
 ```text
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │  Excel Programme    │
+
+&#x20;               │       Data          │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │     KPI Engine      │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │   Insight Engine    │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;         ┌────────────────┼────────────────┐
+
+&#x20;         ▼                ▼                ▼
+
+&#x20;    Activity         Attendance       Learning Levels
+
+&#x20;     Insights          Insights          Insights
+
+&#x20;         │                │                │
+
+&#x20;         └────────────────┼────────────────┘
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │  Funder-Specific    │
+
+&#x20;               │      Analysis       │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │ Marathi Programme   │
+
+&#x20;               │       Report        │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │   Gemini Translation│
+
+&#x20;               │     Marathi → EN    │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │ Funder Report       │
+
+&#x20;               │     Generator       │
+
+&#x20;               └──────────┬──────────┘
+
+&#x20;                          │
+
+&#x20;                          ▼
+
+&#x20;               ┌─────────────────────┐
+
+&#x20;               │ Professional Word  │
+
+&#x20;               │       Report        │
+
+&#x20;               └─────────────────────┘
+
+
+
+
+
+📁 Project Structure
 
 Auto\_Report\_Project/
 
