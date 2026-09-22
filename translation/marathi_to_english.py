@@ -17,7 +17,7 @@ from google.genai import types
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-INPUT_FILE = PROJECT_ROOT / "ACS-HY Marathi Report.docx"
+INPUT_FILE = PROJECT_ROOT / "input" / "google_drive" / "ACS-HY Marathi Report.docx"
 OUTPUT_FILE = PROJECT_ROOT / "output" / "translated_report.json"
 
 MODEL_NAME = "gemini-3.1-flash-lite"
